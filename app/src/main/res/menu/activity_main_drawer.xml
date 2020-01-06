@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_item_one"
+          android:icon="@drawable/ic_about_app"
+          android:iconTint="@color/colorAccent"
+          android:title="about app" />
+    <item android:id="@+id/nav_item_two"
+          android:icon="@drawable/ic_help"
+          android:iconTint="@color/colorAccent"
+          android:title="help" />
+    <item android:id="@+id/nav_menu_dangxuat"
+          android:icon="@drawable/ic_dangxuat"
+          android:iconTint="@color/colorPrimary"
+          android:title="Đăng xuất" />
+</menu>

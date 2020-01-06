@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+             android:layout_height="match_parent"
+             tools:context=".fragments.YeuCauFragment">
+
+
+
+    <EditText
+            android:id="@+id/ed_input_notification"
+            android:layout_width="match_parent"
+            android:hint="Nhập notification"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_startService"
+        android:layout_width="wrap_content"
+        android:text="Start service"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/btn_stopService"
+            android:layout_width="wrap_content"
+            android:text="Stop service"
+            android:textColor="#000"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

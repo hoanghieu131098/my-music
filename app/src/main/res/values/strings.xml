@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UngDungNgeNhac</string>
+    <string name="search_hint">Tìm kiếm nhạc ...</string>
+    <string name="actionbar_title">Nhạc trực tuyến</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lable_name_nav_head_drawer">Hoàng Hiếu</string>
+    <string name="navigation_drawer_open">Mở</string>
+    <string name="navigation_drawer_close">Đóng</string>
+    <string name="lable_login">Đăng nhập với...</string>
+
+    <!--TODO: login fb-->
+    <string name="facebook_app_id">733443133741748</string>
+    <string name="fb_login_protocol_scheme">fb733443133741748</string>
+
+</resources>

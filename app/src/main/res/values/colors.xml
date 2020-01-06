@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9902</color>
+    <color name="colorPrimaryDark">#CBF55621</color>
+    <color name="colorAccent">#FFBD00</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorPrimaryTint">#FFFFFF</color>
+    <color name="color_TitleActionbar">#FFFFFF</color>
+    <color name="color_bg_login_end_start">#FCE300</color>
+    <color name="color_bg_login_center">#ECD79C</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000</color>
+    <color name="bg_detail_play">#F5D165</color>
+    <color name="text_timer_lable">#000000</color>
+
+</resources>

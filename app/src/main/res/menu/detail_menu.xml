@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/id_ic_detail_yeuthich"
+            android:icon="@drawable/ic_detail_yeuthich"
+            android:title="Favorite"
+            android:iconTint="@color/colorPrimary"
+    />
+    <item
+            android:id="@+id/id_ic_detail_hengio"
+            android:icon="@drawable/ic_detail_hengio"
+            android:title="Timer"
+            android:iconTint="@color/colorPrimary"
+    />
+</menu>

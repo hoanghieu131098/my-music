@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="height_with_img_avartar">80dp</dimen>
+    <dimen name="height_nav_head_drawer">160dp</dimen>
+    <dimen name="padding_16dp">10dp</dimen>
+    <dimen name="text_size_name_nav_head_drawer_20sp">20sp</dimen>
+    <dimen name="dimens_5dp">5dp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:padding="5dp"
+              android:background="?android:attr/selectableItemBackground"
+              android:layout_marginTop="@dimen/dimens_5dp"
+              android:gravity="center_vertical"
+              android:layout_height="wrap_content">
+    <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:layout_width="70dp"
+            android:background="@drawable/bg_img_item_avatar_music"
+            android:layout_height="70dp">
+        <ImageView
+                android:id="@+id/img_item_music"
+                android:src="@drawable/ic_logo_bg"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/tv_item_music_title"
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:text="Một bước yêu vạn dặm đau "
+                android:textColor="@color/color_black"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/tv_item_music_namecasi"
+                android:textSize="15dp"
+                android:text="Mr Siro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
