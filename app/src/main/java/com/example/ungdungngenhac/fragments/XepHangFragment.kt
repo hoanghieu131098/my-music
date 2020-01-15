@@ -63,10 +63,8 @@ class XepHangFragment : BaseFragment(), onItemClickListener.online {
             listenerData!!.onclick(position, Constants.IS_ONLINE)
 
 
-
         }
     }
-
 
 
     override fun onDestroyView() {
@@ -90,9 +88,6 @@ class XepHangFragment : BaseFragment(), onItemClickListener.online {
 
 
     override fun init() {
-
-
-
         recycle_XepHang.layoutManager = LinearLayoutManager(activity!!)
         recycle_XepHang.setHasFixedSize(true)
         val itemDecor = DividerItemDecoration(requireContext(), VERTICAL)
@@ -110,7 +105,10 @@ class XepHangFragment : BaseFragment(), onItemClickListener.online {
                 call: Call<java.util.ArrayList<BaiHat>>,
                 response: Response<java.util.ArrayList<BaiHat>>
             ) {
-                var data: ArrayList<BaiHat> = response.body()!!
+                var data: ArrayList<BaiHat> = arrayListOf()
+                if (response.body() != null) {
+                    data = response.body()!!
+                }
                 arrBaiHat = data
                 xephangadapter.setData(arrBaiHat!!)
                 //ADD data vào databackup để search
